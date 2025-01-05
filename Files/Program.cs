@@ -16,7 +16,7 @@ internal class Program
                     for (int j = 0; j < chars.Length && i < text.Length; j++)
                     {
                         Thread.Sleep(5);
-                        int Index = rand.Next(0, colors.Length);
+                        int Index = rand.Next(1, colors.Length);
                         Console.ForegroundColor = colors[Index];
                         if (text[i] == ' ')
                         {
